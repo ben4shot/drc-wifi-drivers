@@ -18,7 +18,7 @@ repo principal `drc`.
 | Compilar módulos | `base-devel git dkms` | `build-essential git dkms` |
 | Cabeceras del kernel en uso | `linux-headers` | `linux-headers-$(uname -r)` |
 | Python 3 | `python` | `python3` |
-| Herramientas Wi-Fi | `iw` | `iw` |
+| Herramientas Wi-Fi (y la base regulatoria: sin ella el canal 36 no admite AP) | `iw wireless-regdb` | `iw wireless-regdb` |
 | Desplegar a otra máquina por SSH | `openssh rsync` | `openssh-client rsync` |
 | Fuentes del kernel (brcmfmac) | | `linux-source-6.12` (lo instala `prepare_brcmfmac_src.sh`) |
 
