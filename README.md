@@ -9,7 +9,7 @@ repo principal `drc`.
   `install_firmware.sh`, `wifi_driver.sh`: chip interno de la Raspberry Pi 4 (CYW43455), módulo externo y firmware.
 - `brcmfmac-src/`: fuentes de brcmfmac/brcmutil usadas para el módulo externo.
 - `tools/fw_tsf_probe.py`, `wliov.py`: sondas del TSF por iovar del firmware.
-- `profiles-ref/`: perfiles de ejemplo; los vigentes están en `drc/config/platforms/`.
+- Los perfiles de cada adaptador (payload, `TS_OFFSET_US`, etc.) están en el repo `drc`, en `config/platforms/`.
 
 ## Requisitos (antes de instalar nada)
 
